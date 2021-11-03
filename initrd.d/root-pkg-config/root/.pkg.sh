@@ -1,0 +1,1 @@
+PKG_MAKEOPTS="$PKG_MAKEOPTS -j`nproc`"

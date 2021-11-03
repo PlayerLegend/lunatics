@@ -1,0 +1,9 @@
+external
+boot
+sbin
+bin
+Makefile.bak
+init
+*.o
+*.xz
+initrd.d/ssh-access/root/.ssh

@@ -1,0 +1,13 @@
+#!/bin/sh
+
+export PATH=/usr/bin:/bin
+
+if test `whoami` = root
+then
+    PATH=/usr/sbin:/sbin:"$PATH"
+fi
+
+for file in /etc/profile.d/*
+do
+    . "$file"
+done
